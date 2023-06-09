@@ -1,0 +1,17 @@
+{
+  "name": "100kino",
+  "version": "1.0.0",
+  "description": "100 документальных фильмов",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev --prefix ./api\" \"npm start --prefix ./front\" ",
+    "in": "npm i && npm i --prefix ./api && npm i --prefix ./front"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.1.0"
+  }
+}

@@ -1,0 +1,95 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0.4);
+}
+
+.card__head {
+  display: flex;
+  background-color: #222222;
+  padding: 13px;
+}
+
+.card__text {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card__text:hover {
+  text-decoration: underline;
+}
+
+.card__name {
+  width: 100%;
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+}
+
+.card__duration {
+  margin: 0;
+  font-size: 11px;
+  line-height: 13px;
+  color: #8b8b8b;
+}
+
+.card__save {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__btn {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: #313131;
+  background-image: url("../../images/save.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px 13px;
+  transition: all 0.2s;
+}
+
+.card__btn:hover {
+  background-color: #424242;
+  background-image: url("../../images/save-hover.svg");
+}
+
+.card__btn_saved {
+  background-color: #3ddc84;
+  background-image: url("../../images/saved.svg");
+}
+
+.card__btn_saved:hover {
+  background-color: #4285f4;
+  background-image: url("../../images/saved.svg");
+}
+
+.card__btn_inSaved {
+  background-image: url("../../images/insaved.svg");
+}
+
+.card__btn_inSaved:hover {
+  background-image: url("../../images/insaved-hover.svg");
+}
+
+.card__img {
+  width: 100%;
+  max-height: 203px;
+  object-fit: cover;
+}
