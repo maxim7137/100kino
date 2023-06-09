@@ -2,8 +2,11 @@ const { corsMessage } = require('../constants/messages');
 
 const whiteList = [
   'https://localhost',
+  'https://localhost/',
   'http://100.119.209.204',
+  'http://100.119.209.204/',
   'http://localhost:3003',
+  'http://localhost:3003/',
   'https://max.nomoredomainsclub.ru',
 ];
 
