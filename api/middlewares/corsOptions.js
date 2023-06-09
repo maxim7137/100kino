@@ -7,7 +7,7 @@ const whiteList = [
   'http://100.119.209.204/',
   'http://localhost:3003',
   'http://localhost:3003/',
-  'https://max.nomoredomainsclub.ru',
+  'https://max-movie.surge.sh',
 ];
 
 const corsOptions = {
