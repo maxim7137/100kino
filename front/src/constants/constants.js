@@ -1,5 +1,6 @@
 // urls (string)
-export const { MY_API_URL = 'http://127.0.0.1:3001' } = process.env;
+// export const { MY_API_URL = 'http://127.0.0.1:3001' } = process.env;
+export const { MY_API_URL = '//192.168.0.108' } = process.env;
 export const { BF_API_URL = 'https://api.nomoreparties.co/beatfilm-movies' } =
   process.env;
 export const { BASE_BF_API_URL = 'https://api.nomoreparties.co' } = process.env;
